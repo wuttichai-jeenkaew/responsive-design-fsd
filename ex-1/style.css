@@ -167,4 +167,48 @@ h3 {
   left: 0px;
 }
 
-/* Start coding here */
+
+@media screen and (max-width: 600px) {
+  .categories {
+    width: 100vw;
+    padding: 20px;
+  }
+  
+  .topic {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .row-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 45px;
+  }
+
+  .row-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 45px;
+  }
+
+  .job-item {
+    width: 100%;
+    display: flex;
+  }
+
+  .job-more {
+    width: 100%;
+    display: flex;
+  }
+}
+
+
+  
+
+
