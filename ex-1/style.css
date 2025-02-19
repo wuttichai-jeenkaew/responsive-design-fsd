@@ -168,3 +168,52 @@ h3 {
 }
 
 /* Start coding here */
+
+
+
+@media (max-width: 768px) {
+  .categories {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .row-1, .row-2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  
+  }
+  
+  .job-item, .job-more {
+    width: 333px;
+    height: 268px;
+    margin: 10px 0;
+    position: relative;
+  }
+  
+  h2, h4 {
+    position: static;
+    text-align: start;
+    margin-top: 10px;
+  
+  }
+  
+  .arrow {
+    display: block;
+    margin: auto;
+    position: absolute;
+    top: 80%;
+    right: 1%;
+  }
+
+  .icon {
+    margin-bottom: 60px;
+  }
+
+  
+  
+}
+
